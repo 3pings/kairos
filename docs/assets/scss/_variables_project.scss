@@ -1,0 +1,66 @@
+/*
+
+Add styles or override variables from the theme here.
+
+*/
+
+
+
+$primary: #ee5007;
+$secondary: #03153a;
+$enable-gradients: true;
+$enable-rounded: false;
+$enable-shadows: true;
+$google_font_name: "Noto Sans";
+$google_font_family: "Noto Sans:0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700";
+
+
+.td-box--primary .td-arrow-down::before, .td-box--1 .td-arrow-down::before{
+    border-color: #2F3061 transparent transparent transparent !important;
+
+}
+.td-box--primary {
+    background-color: #2F3061 !important;
+}
+
+.td-box--1 {     background-color: #2F3061 !important; }
+.td-box--2 {     background-color: #201A23 !important; }
+
+
+.td-box--dark {
+    background-color: #343434 !important;
+
+}
+
+.td-box--3 {
+    color: #fff !important;
+    background-color: #5F5980 !important;
+
+}
+
+.td-navbar {
+    background: #ee5007 !important;
+}
+
+.navbar-bg-onscroll {
+    background: #03153a !important;
+
+}
+.td-box--4 {
+    background-color: #DFDFDF !important;
+
+}
+
+
+
+.btn-primary {
+    background: #5F5980 !important;
+    border-color:  #5F5980 !important;
+
+}
+
+.btn-secondary {
+    background: #657DC2 !important;
+    border-color:  #657DC2 !important;
+
+}
