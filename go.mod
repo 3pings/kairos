@@ -1,6 +1,6 @@
 module github.com/kairos-io/kairos
 
-go 1.18
+go 1.19
 
 require (
 	github.com/avast/retry-go v3.0.0+incompatible
@@ -9,31 +9,32 @@ require (
 	github.com/google/go-github/v40 v40.0.0
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
 	github.com/hashicorp/go-multierror v1.1.1
-	github.com/itchyny/gojq v0.12.8
+	github.com/itchyny/gojq v0.12.9
 	github.com/jaypipes/ghw v0.9.0
 	github.com/joho/godotenv v1.4.0
 	github.com/mudler/go-nodepair v0.0.0-20220507212557-7d47aa3cc1f1
 	github.com/mudler/go-pluggable v0.0.0-20220716112424-189d463e3ff3
 	github.com/mudler/go-processmanager v0.0.0-20220724164624-c45b5c61312d
-	github.com/mudler/yip v0.0.0-20220725150231-976737b2353c
+	github.com/mudler/yip v0.11.3
 	github.com/nxadm/tail v1.4.8
-	github.com/onsi/ginkgo/v2 v2.1.4
-	github.com/onsi/gomega v1.20.0
+	github.com/onsi/ginkgo/v2 v2.4.0
+	github.com/onsi/gomega v1.23.0
 	github.com/otiai10/copy v1.7.0
-	github.com/pterm/pterm v0.12.41
+	github.com/pterm/pterm v0.12.49
 	github.com/qeesung/image2ascii v1.0.1
 	github.com/spectrocloud/peg v0.0.0-20221005172954-aa887438fafc
 	github.com/twpayne/go-vfs v1.7.2
-	github.com/urfave/cli v1.22.9
-	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b
+	github.com/urfave/cli v1.22.10
+	golang.org/x/oauth2 v0.1.0
 	gopkg.in/yaml.v1 v1.0.0-20140924161607-9f9df34309c0
 	gopkg.in/yaml.v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.1
 )
 
 require (
+	atomicgo.dev/cursor v0.1.1 // indirect
+	atomicgo.dev/keyboard v0.2.8 // indirect
 	github.com/StackExchange/wmi v1.2.1 // indirect
-	github.com/atomicgo/cursor v0.0.1 // indirect
 	github.com/atotto/clipboard v0.1.4 // indirect
 	github.com/aybabtme/rgbterm v0.0.0-20170906152045-cc83f3b3ce59 // indirect
 	github.com/bramvdbogaerde/go-scp v1.2.0 // indirect
@@ -50,25 +51,25 @@ require (
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
 	github.com/gen2brain/shm v0.0.0-20200228170931-49f9650110c5 // indirect
 	github.com/ghodss/yaml v1.0.0 // indirect
+	github.com/go-logr/logr v1.2.3 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
-	github.com/go-task/slim-sprig v0.0.0-20210107165309-348f09dbbbc0 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/google/go-cmp v0.5.8 // indirect
+	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
-	github.com/google/pprof v0.0.0-20210407192527-94a9f03dee38 // indirect
-	github.com/gookit/color v1.5.0 // indirect
+	github.com/gookit/color v1.5.2 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/ipfs/go-log v1.0.5 // indirect
 	github.com/ipfs/go-log/v2 v2.5.1 // indirect
-	github.com/itchyny/timefmt-go v0.1.3 // indirect
+	github.com/itchyny/timefmt-go v0.1.4 // indirect
 	github.com/jaypipes/pcidb v1.0.0 // indirect
 	github.com/jezek/xgb v0.0.0-20210312150743-0e0f116e1240 // indirect
 	github.com/kbinani/screenshot v0.0.0-20210720154843-7d3a670d8329 // indirect
+	github.com/lithammer/fuzzysearch v1.1.5 // indirect
 	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
 	github.com/lxn/win v0.0.0-20210218163916-a377121e959e // indirect
 	github.com/makiuchi-d/gozxing v0.1.1 // indirect
-	github.com/mattn/go-isatty v0.0.14 // indirect
+	github.com/mattn/go-isatty v0.0.16 // indirect
 	github.com/mattn/go-runewidth v0.0.13 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/muesli/ansi v0.0.0-20211018074035-2e021307bc4b // indirect
@@ -88,11 +89,10 @@ require (
 	go.uber.org/zap v1.21.0 // indirect
 	golang.org/x/crypto v0.0.0-20220722155217-630584e8d5aa // indirect
 	golang.org/x/image v0.0.0-20191206065243-da761ea9ff43 // indirect
-	golang.org/x/net v0.0.0-20220630215102-69896b714898 // indirect
-	golang.org/x/sys v0.0.0-20220715151400-c0bba94af5f8 // indirect
-	golang.org/x/term v0.0.0-20220526004731-065cf7ba2467 // indirect
-	golang.org/x/text v0.3.7 // indirect
-	golang.org/x/tools v0.1.10 // indirect
+	golang.org/x/net v0.1.0 // indirect
+	golang.org/x/sys v0.1.0 // indirect
+	golang.org/x/term v0.1.0 // indirect
+	golang.org/x/text v0.4.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220517211312-f3a8303e98df // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.28.0 // indirect
